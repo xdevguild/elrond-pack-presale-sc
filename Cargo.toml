@@ -1,0 +1,15 @@
+[package]
+name = "elrond-pack-presale"
+version = "0.0.0"
+authors = [ "Ice <icegriffin1122@gmail.com>",]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.elrond-wasm]
+version = "0.31.1"
+
+[dev-dependencies.elrond-wasm-debug]
+version = "0.31.1"
