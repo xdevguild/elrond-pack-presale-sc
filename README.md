@@ -1,29 +1,11 @@
-# Interaction
+# Elrond Pack Presale SC
 
-## On devnet
+Token Presale with Packs.
+Each pack has given egld amount and bonus percentage for presale token.
 
-Deploy & interact with contract:
-
-```
-python3 ./interaction/playground.py --pem=./testnet/wallets/users/alice.pem --proxy=http://localhost:7950
-```
-
-Interact with existing contract:
-
-```
-python3 ./interaction/playground.py --pem=./testnet/wallets/users/alice.pem --proxy=http://localhost:7950 --contract=erd1...
-```
-
-## On testnet
-
-Deploy & interact with contract:
-
-```
-python3 ./interaction/playground.py --pem=my.pem --proxy=https://testnet-gateway.elrond.com
-```
-
-Interact with existing contract:
-
-```
-python3 ./interaction/playground.py --pem=my.pem --proxy=https://testnet-gateway.elrond.com --contract=erd1...
-```
+## treasury_wallet
+## token_id
+## egld_price_rate / token_price_rate
+These two storage variables determine EGLD/TOKEN price.
+## bonus_percentages
+Pack amount (in EGLD) and bonus percentage for buying pack.
